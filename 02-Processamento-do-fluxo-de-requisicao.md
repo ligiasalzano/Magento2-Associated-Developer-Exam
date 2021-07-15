@@ -24,7 +24,7 @@ O Magento possui três modos: o _default_, o _developer_ e o _production_. ([Ref
 - **_Developer mode_**:
   - Ideal para desenvolvimento.
   - Baixa performace (bem mais lento).
-  - Utiliza links simbólicos. Eles podem ser atualizados com o comando `bin/magento dev:static-content:deploy -f` ou removidos manualmente.
+  - Utiliza links simbólicos. Eles podem ser atualizados com o comando `bin/magento setup:static-content:deploy -f` ou removidos manualmente.
   - Os erros são mostrados ao usuário e o log é detalhado. Observação: o log de depuração está desativado por padrão, mesmo no modo de desenvolvedor.
   - Não deve ser usado em produção pois apresenta riscos de segurança.
 - **_Production mode_**
